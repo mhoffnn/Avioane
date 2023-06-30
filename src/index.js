@@ -65,7 +65,6 @@ function preview() {
 
 function startGame() {
 	console.log("startGame/0")
-	console.log("/////////////////////////////////////////////////////////////////////////////////")
 	if (!(player = initializePlayer(false))) return;
 	if (!(computer = initializeComputer())) return;
 
