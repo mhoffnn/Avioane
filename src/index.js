@@ -213,11 +213,11 @@ function setImage(y, x, id, isComputer) {
 	console.log("setImage/4")
 	if (isComputer) {
 		computer[y][x][0] = id;
-		document.images["pc" + y + "_" + x].src = "assets/av" + id + ".svg";
+		document.images["pc" + y + "_" + x].src = "src/assets/av" + id + ".svg";
 	}
 	else {
 		player[y][x][0] = id;
-		document.images["ply" + y + "_" + x].src = "assets/av" + id + ".svg";
+		document.images["ply" + y + "_" + x].src = "src/assets/av" + id + ".svg";
 	}
 }
 
@@ -233,7 +233,7 @@ function displayGrid(isComputer) {
 		for (y = 0; y < gridY; y++) {
       s += '<div class="row">'
 			for (x = 0; x < gridX; x++) {
-				s += '<button onclick="javascript:gridClick(' + y + ',' + x + ');"><img class="img-grid" name="pc' + y + '_' + x + '" src="assets/ave.svg" width=16 height=16><div class="overlay"></div></button>';
+				s += '<button onclick="javascript:gridClick(' + y + ',' + x + ');"><img class="img-grid" name="pc' + y + '_' + x + '" src="src/assets/ave.svg" width=16 height=16><div class="overlay"></div></button>';
 			}
       s += '<div class="number-y">' + (y + 1) + '</div>';
 			s += '</div>';
@@ -243,7 +243,7 @@ function displayGrid(isComputer) {
       s += '<div class="row">'
 			s += '<div class="number-y">' + (y + 1) + '</div>';
 			for (x = 0; x < gridX; x++) {
-				s += '<button onclick="javascript:playerGridClick(' + y + ',' + x + ');"><img class="img-grid" name="ply' + y + '_' + x + '" src="assets/av' + player[y][x][0] + '.svg" width=16 height=16><div class="overlay"></div></button>';
+				s += '<button onclick="javascript:playerGridClick(' + y + ',' + x + ');"><img class="img-grid" name="ply' + y + '_' + x + '" src="src/assets/av' + player[y][x][0] + '.svg" width=16 height=16><div class="overlay"></div></button>';
 			}
 			s += '</div>';
 		}
