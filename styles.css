@@ -57,13 +57,14 @@ button img {
   height: 24px;
 }
 
-button {
+.row button {
   padding: 0px;
   border: solid 1px #ffff;
   margin: 0px;
   background-color: #fff;
   position: relative;
   cursor: pointer;
+  display: inline-flex;
 }
 
 
@@ -71,8 +72,8 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 24px;
+  height: 24px;
   background-color: transparent;
   opacity: 0;
   transition: background-color 0.1s ease, opacity 0.1s ease;

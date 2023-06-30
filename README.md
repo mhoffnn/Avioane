@@ -22,7 +22,7 @@ Algumas ideias para implementação futura incluem a adição de um modo multipl
 
 ## Agradecimentos
 
-Gostaríamos de agradecer a Jonas Broder pela ajuda na criação do logo e a Gustavo Jansen pela orientação durante a disciplina, bem como ao desenvolvedor romeno pela criação da primeira versão do jogo em 2012.
+Gostaríamos de agradecer a Jonas Broder (aka Arthur Spohr) pela ajuda na criação do logo e a Gustavo Jansen pela orientação durante a disciplina, bem como ao desenvolvedor romeno pela criação da primeira versão do jogo em 2012.
 
 ## Limitações:
 A documentação do jogo está em romeno, porém, caso necessário, pode-se utilizar o Google Translate para traduzi-la. Atualmente, o jogo suporta apenas o modo de um único jogador.
@@ -32,4 +32,4 @@ O jogo é gratuito para uso não comercial.
 
 ## Demo:
 
-[Adicione a demo aqui](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site:~:text=Criar%20reposit%C3%B3rio.-,Criar%20seu%20site,-Antes%20de%20criar)
+[Avioane](https://mhoffnn.github.io/Avioane/)
