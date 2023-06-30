@@ -57,13 +57,14 @@ button img {
   height: 24px;
 }
 
-button {
+.row button {
   padding: 0px;
   border: solid 1px #ffff;
   margin: 0px;
   background-color: #fff;
   position: relative;
   cursor: pointer;
+  display: inline-flex;
 }
 
 
