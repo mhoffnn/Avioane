@@ -31,5 +31,4 @@ A documentação do jogo está em romeno, porém, caso necessário, pode-se util
 O jogo é gratuito para uso não comercial.
 
 ## Demo:
-
 [Avioane](https://mhoffnn.github.io/Avioane/)
