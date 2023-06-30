@@ -1,4 +1,4 @@
-![Avioane](./assets/logo.svg)
+![Avioane](.src//assets/logo.svg)
 
 -------
 
