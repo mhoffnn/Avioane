@@ -32,4 +32,4 @@ O jogo é gratuito para uso não comercial.
 
 ## Demo:
 
-[Adicione a demo aqui](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site:~:text=Criar%20reposit%C3%B3rio.-,Criar%20seu%20site,-Antes%20de%20criar)
+[Demo do jogo](https://mhoffnn.github.io/Avioane/)
